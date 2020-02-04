@@ -41,4 +41,5 @@ def medfilt(A, n):
     plt.figure(), plt.imshow(A_mf, cmap='gray')
 #     plt.figure(), plt.imshow(A_cv2_mf, cmap='gray')
     
+    return A_mf
     
