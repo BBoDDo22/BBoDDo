@@ -20,7 +20,7 @@ def medfilt(A, n):
     A_mf = A.copy()
     
     nn = (n-1)//2
-    [row, col] = CT_img.shape 
+    [row, col] = A.shape 
     
     ar = np.zeros((n,n))
     for r in range(row):
