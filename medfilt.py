@@ -10,13 +10,18 @@
 
 def medfilt(A, n):
 
-    # A : input image
+    # A : input gray sacle image
     # n : n x n filter size
+    
+    n = round(n)
+    if (n + 1) % 2 != 0:
+        n = n + 1
     
     A_mf = A.copy()
     
     nn = (n-1)//2
     [row, col] = CT_img.shape 
+    
     ar = np.zeros((n,n))
     for r in range(row):
         for c in range(col):
@@ -30,10 +35,10 @@ def medfilt(A, n):
             arr = np.sort(np.array(ar).ravel())
             A_mf[r][c] = arr[len(arr)//2]
     
-    A_cv2_mf = cv2.medianBlur(A, 3)
+#     A_cv2_mf = cv2.medianBlur(A, n)
     
     plt.figure(), plt.imshow(A, cmap='gray')
     plt.figure(), plt.imshow(A_mf, cmap='gray')
-    plt.figure(), plt.imshow(A_cv2_mf, cmap='gray')
+#     plt.figure(), plt.imshow(A_cv2_mf, cmap='gray')
     
     
