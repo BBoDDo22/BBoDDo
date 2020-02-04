@@ -22,7 +22,7 @@ def medfilt(A, n):
         for c in range(col):
             for j in range(-nn, nn + 1):
                 for k in range(-nn, nn + 1):
-                    if r+j <= -nn or r+j >= row + nn -1 or c+j <= -nn or c+j >= row + nn -1 or r+k <= -nn or r+k >= row + nn -1 or c+k <= -nn or c+k >= row + nn -1:
+                    if r+j <= -1 or r+j >= row or c+j <= -1 or c+j >= row or r+k <= -1 or r+k >= row or c+k <= -1 or c+k >= row:
                         ar[j+1][k+1] = 0
                     else:
                         ar[j+1][k+1] = A[r+j][c+k]
