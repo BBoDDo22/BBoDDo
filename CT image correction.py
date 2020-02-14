@@ -1,4 +1,4 @@
-## Flat Field Correction (FFC) ##
+## Flat Field Correction (FFC) by GuroMulgae ##
 
 %matplotlib notebook
 import numpy as np
@@ -72,6 +72,7 @@ for i in range(2,3):
 #     plt.figure()
 #     plt.imshow(magnitude_spectrum2, cmap='gray')
 
+    # Eliminate frequency
     [row, col] = org_I.shape
     [row2, col2] = np.array([row, col], dtype=np.int) // 2
     row2_range = 1
