@@ -1,4 +1,4 @@
-# GuroMulgae
+# KimhaeMulgae
 
 # Library to perform image enhancement:
 #
