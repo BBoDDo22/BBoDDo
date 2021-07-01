@@ -1,4 +1,4 @@
-# BBoDDo
+# BBoDDo_lab
 
 # Library to perform image enhancement:
 #
