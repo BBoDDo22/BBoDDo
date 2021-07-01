@@ -1,6 +1,6 @@
 function streamplot(NN,ux,uy)
 
-% streamline plotting  
+% streamline plotting by kimhaemulgae
   
     [x,y] = meshgrid(0:1/(NN-1):1,0:1/(NN-1):1);
 
