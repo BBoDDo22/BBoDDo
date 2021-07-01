@@ -1,4 +1,4 @@
-# KimhaeMulgae
+# BBoDDo
 
 # Library to perform image enhancement:
 #
