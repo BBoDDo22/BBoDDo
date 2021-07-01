@@ -1,4 +1,4 @@
-## Flat Field Correction (FFC) by GuroMulgae ##
+## Flat Field Correction (FFC) by BBoDDo_lab ##
 
 %matplotlib notebook
 import numpy as np
