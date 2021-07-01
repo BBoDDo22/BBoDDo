@@ -1,4 +1,4 @@
-## Median Filter by BBoDDo ##
+## Median Filter by BBoDDo_lab ##
 
 # Only 2D gray scale images
 
