@@ -1,4 +1,4 @@
-%% Lattice Boltzmann Method (LBM) _ 2D lid_driven_cavity
+%% Lattice Boltzmann Method (LBM) _ 2D lid_driven_cavity by kimhaemulgae
 
 clear all, close all, clc;
 
