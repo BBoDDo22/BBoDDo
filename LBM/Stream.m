@@ -1,6 +1,6 @@
 function [fstar] = Stream(fstar, f, nodenums, nx, ny, Top, Bottom, Right, Left)
 
-% streaming step function
+% streaming step function by kimhaemulgae
 
 for i=1:9
         if i==1
