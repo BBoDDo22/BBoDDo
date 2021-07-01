@@ -1,4 +1,4 @@
-## Hybrid Median Filter by BBoDDo ##
+## Hybrid Median Filter by BBoDDo_lab ##
 
 def hybridmedfilt(A, n):
 
