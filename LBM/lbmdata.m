@@ -1,6 +1,7 @@
 function [U, V, compare] = lbmdata(nx,Re,x,y,u,ux,uy)
   
 % compare with Ghia's paper (reference)
+% by kimhaemulgae
   
 if nx == 129
     u_velocity = flipud(ux([1 8 9 10 14 23 37 59 65 80 95 110 123 124 125 126 129],65))./u;
