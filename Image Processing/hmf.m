@@ -1,4 +1,4 @@
-# GuroMulgae
+# KimhaeMulgae
 
 % Hemal Dave Project 4B: Medical Image Processing
 % this is the hybrid median filter. several options will be provided to
